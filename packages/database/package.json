@@ -1,0 +1,46 @@
+{
+  "name": "@alb-market/database",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ALB Market Neo4j Database Management",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "setup": "chmod +x scripts/*.sh && ./scripts/setup-neo4j.sh",
+    "start": "./scripts/start-neo4j.sh",
+    "stop": "./scripts/stop-neo4j.sh",
+    "status": "./scripts/status-neo4j.sh",
+    "init-schema": "cypher-shell -a bolt://localhost:7687 -u neo4j -p albmarket123 -f scripts/init-schema.cypher",
+    "test-connection": "node scripts/test-connection.js",
+    "import": "./scripts/import-functions.sh",
+    "migrate": "node scripts/migrate.js",
+    "seed": "node scripts/seed.js",
+    "reset": "node scripts/reset.js",
+    "backup": "node scripts/backup.js",
+    "restore": "npx ts-node scripts/restore.ts",
+    "verify": "npx ts-node scripts/verify-restoration.ts",
+    "audit": "npx ts-node scripts/audit-database.ts",
+    "batch-process": "npx ts-node scripts/batch-process-items.ts",
+    "batch-process:resume": "npx ts-node scripts/batch-process-items.ts --resume",
+    "batch-process:dry-run": "npx ts-node scripts/batch-process-items.ts --dry-run",
+    "lint": "echo 'Linting disabled for now'",
+    "lint:fix": "echo 'Linting disabled for now'",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@alb-market/shared": "workspace:*",
+    "neo4j-driver": "^5.22.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@alb-market/eslint-config": "workspace:*",
+    "@alb-market/tsconfig": "workspace:*",
+    "@types/node": "^20.14.12",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.3",
+    "typescript": "^5.5.4"
+  }
+}

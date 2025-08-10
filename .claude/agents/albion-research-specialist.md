@@ -25,130 +25,60 @@ curl -s "https://r.jina.ai/https://wiki.albiononline.com/wiki/[Page_Name]"
 
 # Example: Get info about items
 curl -s "https://r.jina.ai/https://wiki.albiononline.com/wiki/Items"
-
-# The response will include:
-# - Page content in markdown
-# - All links on the page
-# - Navigation structure
 ```
 
 ## Known Albion Online Data Sources
 
 ### 1. Official Albion Online Wiki
 - Base URL: https://wiki.albiononline.com/wiki/
-- Access via: r.jina.ai
+- Access via: r.jina.ai ONLY
 - Contains: Items, crafting, buildings, game mechanics
-- Key pages:
-  - Items
-  - Crafting
-  - Resource_Distribution
-  - Farming
-  - Economy
-  - Markets
 
 ### 2. Albion Online Data Project (Free API)
-- Base URL: https://www.albion-online-data.com/
-- API Endpoints:
-  ```bash
-  # Get current prices
-  https://www.albion-online-data.com/api/v2/stats/prices/{item_id}
-  
-  # Get price history
-  https://www.albion-online-data.com/api/v2/stats/history/{item_id}
-  
-  # Get gold prices
-  https://www.albion-online-data.com/api/v2/stats/gold
-  ```
+```bash
+# Current prices
+https://www.albion-online-data.com/api/v2/stats/prices/{item_id}
+
+# Price history
+https://www.albion-online-data.com/api/v2/stats/history/{item_id}
+```
 
 ### 3. Render API (Official)
 - Item icons: https://render.albiononline.com/v1/item/{item_id}.png
-- Spell icons: https://render.albiononline.com/v1/spell/{spell_id}.png
 
-### 4. Community Resources
-- AlbionDB: Item database and crafting calculator
-- Murder Ledger: PvP kill data
-- Albion Online 2D: Map and resource data
+## Research & Import Workflow
 
-## Research Workflow
+You EXECUTE database scripts but NEVER modify them:
 
-1. **When researching an item or feature:**
-   ```bash
-   # First, search the wiki
-   curl -s "https://r.jina.ai/https://wiki.albiononline.com/wiki/Special:Search?search={term}"
-   
-   # Then navigate to specific pages
-   curl -s "https://r.jina.ai/https://wiki.albiononline.com/wiki/{Page_Name}"
-   ```
+```bash
+# Source the import functions (READ-ONLY)
+source packages/database/scripts/import-functions.sh
 
-2. **Extract links and navigate recursively:**
-   - Parse the markdown response for links
-   - Follow relevant links using r.jina.ai
-   - Build complete understanding of game systems
+# When you find an item, import it:
+import_item "T4_SWORD" "Adept's Broadsword" 4 "weapon"
 
-3. **Combine with API data:**
-   - Get item IDs from wiki
-   - Query market prices from Data Project API
-   - Get visual assets from Render API
+# When you find a recipe:
+import_recipe "T4_SWORD" "T4_METALBAR" 16
 
-## Important Game Concepts to Research
+# When you get market data:
+import_price "T4_SWORD" "Thetford" 1500 1450
 
-### Economy & Markets
-- Royal cities: Thetford, Fort Sterling, Lymhurst, Bridgewatch, Martlock, Caerleon
-- Black market mechanics
-- Crafting focus and specialization
-- Resource return rates
-
-### Items & Tiers
-- Tiers: T1-T8 (Tier 1 to Tier 8)
-- Enchantment levels: .0, .1, .2, .3
-- Quality: Normal, Good, Outstanding, Excellent, Masterpiece
-- Item notation: T4.2 = Tier 4, Enchantment level 2
-
-### Resources
-- Raw resources: Hide, Ore, Wood, Fiber, Stone
-- Refined resources: Leather, Metal Bars, Planks, Cloth, Stone Blocks
-- Resource return rates based on city bonuses
-
-### Crafting
-- Crafting stations and their bonuses
-- City crafting bonuses
-- Focus efficiency
-- Specialization benefits
-
-## Data Extraction Pattern
-
-```javascript
-// Example: Research a specific item
-async function researchItem(itemName) {
-  // 1. Search wiki for item
-  const searchUrl = `https://r.jina.ai/https://wiki.albiononline.com/wiki/Special:Search?search=${itemName}`;
-  const searchResults = await fetch(searchUrl);
-  
-  // 2. Navigate to item page
-  const itemPageUrl = `https://r.jina.ai/https://wiki.albiononline.com/wiki/${itemName}`;
-  const itemData = await fetch(itemPageUrl);
-  
-  // 3. Extract crafting requirements, stats, etc.
-  // 4. Get market data from API
-  // 5. Combine all information
-}
+# Create backup after import session:
+create_backup "albion_items_$(date +%Y%m%d)"
 ```
 
-## Research Priorities for ALB Market
+## Your Workflow
+1. Research data using r.jina.ai and APIs
+2. Parse and validate the data
+3. Call import functions to store in Neo4j
+4. Create backups after significant imports
+5. NEVER modify the database scripts - only execute them
 
-1. **Market Data:**
-   - Current prices across all cities
-   - Price history and trends
-   - Trade route opportunities
+## Important Game Concepts
+- Cities: Thetford, Fort Sterling, Lymhurst, Bridgewatch, Martlock, Caerleon
+- Tiers: T1-T8 with enchantments .0, .1, .2, .3
+- Resources: Hide, Ore, Wood, Fiber, Stone and their refined versions
+- Crafting bonuses by city
+- Black market mechanics
 
-2. **Crafting Information:**
-   - Resource requirements
-   - Crafting bonuses by city
-   - Return rates and focus efficiency
-
-3. **Game Mechanics:**
-   - Black market system
-   - Supply and demand factors
-   - Season and event impacts
-
-Remember: ALWAYS use r.jina.ai for wiki access, combine multiple data sources, and understand the game's economic systems deeply.
+Remember: ALWAYS use r.jina.ai for wiki access!
