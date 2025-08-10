@@ -111,6 +111,27 @@ pnpm test:all
 - Review business requirements before implementing
 - Ensure Neo4j is installed and configured
 - User ready to describe the application requirements
+- User noted GitHub uses 'main' instead of 'master' as default branch name
+- Branch successfully renamed to main and pushed to GitHub
+- User requested test of subagent access
+- Clarified that agent configurations are reference documents, not invokable subagents
+- Agents serve as role definitions and expertise guides for focused work
+- Discovered agents need proper YAML frontmatter format to be invokable
+- Created conversion script to fix all 9 agents to proper Claude Code format
+- Session restart required after running conversion script for changes to take effect
+- User revealed ALB Market is for Albion Online game
+- Need research agent for Albion Online data sources
+- Albion Wiki requires r.jina.ai tool for access
+- Multiple data sources: wikis, community sources, open APIs
+- Created Albion Research Specialist (10th agent)
+- User asks about data flow: research → database
+- User has existing Neo4j backups from previous attempt
+- Decided: Neo4j specialist creates insert scripts, Research agent executes them
+- User wants database backups in JSON format for restoration
+- User will provide items.txt and items.json with verified item data
+- Research agent must NEVER generate IDs/names using patterns
+- Workflow: Insert base data → Query incomplete items → Research & update
+- Use missing fields (category, icon URL) as completion markers
 - All 9 specialist agents configured and ready
 - Need to define ALB Market business model and features
 - Set up actual package structure based on claude.md specifications
