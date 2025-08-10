@@ -1,0 +1,15 @@
+{
+  "extends": "@alb-market/tsconfig/base.json",
+  "compilerOptions": {
+    "composite": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "lib": ["ES2022"],
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "declaration": true,
+    "declarationMap": true
+  },
+  "include": ["src/**/*"]
+}
