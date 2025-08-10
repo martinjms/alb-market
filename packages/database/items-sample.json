@@ -1,0 +1,122 @@
+{
+  "UNIQUE_HIDEOUT": {
+    "LocalizationNameVariable": "@ITEMS_UNIQUE_HIDEOUT",
+    "LocalizedNames": {
+      "EN-US": "Hideout Construction Kit",
+      "DE-DE": "Unterschlupf-Baukasten",
+      "FR-FR": "Kit de Construction de Refuge",
+      "RU-RU": "Набор для строительства убежища",
+      "PL-PL": "Zestaw do Budowy Kryjówki",
+      "ES-ES": "Kit de Construcción de Refugio",
+      "PT-BR": "Kit de Construção de Esconderijo",
+      "IT-IT": "Kit da Costruzione Rifugio",
+      "ZH-CN": "藏身处建造套件",
+      "KO-KR": "은신처 건설 키트",
+      "JA-JP": "隠れ家建設キット",
+      "ZH-TW": "藏身處建造套件",
+      "ID-ID": "Kit Konstruksi Persembunyian",
+      "TR-TR": "Saklanma Yeri İnşaat Kiti",
+      "AR-SA": "طقم بناء الملجأ"
+    }
+  },
+  "T3_2H_TOOL_TRACKING": {
+    "LocalizationNameVariable": "@ITEMS_T3_2H_TOOL_TRACKING",
+    "LocalizedNames": {
+      "EN-US": "Journeyman's Tracking Toolkit",
+      "DE-DE": "Gesellen-Spurenverfolgungsset",
+      "FR-FR": "Trousse de Pistage d'Artisan",
+      "RU-RU": "Набор для выслеживания подмастерья",
+      "PL-PL": "Zestaw Śledczy Czeladnika",
+      "ES-ES": "Kit de Rastreo de Oficial",
+      "PT-BR": "Kit de Rastreamento de Oficial",
+      "IT-IT": "Kit da Inseguimento dell'Artigiano",
+      "ZH-CN": "熟练工追踪工具包",
+      "KO-KR": "숙련공의 추적 도구 세트",
+      "JA-JP": "職人の追跡ツールキット",
+      "ZH-TW": "熟練工追蹤工具包",
+      "ID-ID": "Perangkat Pelacak Tukang Ahli",
+      "TR-TR": "Kalfa Takip Araç Seti",
+      "AR-SA": "طقم تتبع الحرفي"
+    }
+  },
+  "T4_2H_CLAYMORE": {
+    "LocalizationNameVariable": "@ITEMS_T4_2H_CLAYMORE",
+    "LocalizedNames": {
+      "EN-US": "Expert's Claymore",
+      "DE-DE": "Experten-Claymore",
+      "FR-FR": "Claymore d'Expert",
+      "RU-RU": "Клеймор эксперта",
+      "PL-PL": "Claymore Eksperta",
+      "ES-ES": "Mandoble de Experto",
+      "PT-BR": "Claymore de Especialista",
+      "IT-IT": "Claymore dell'Esperto",
+      "ZH-CN": "专家阔剑",
+      "KO-KR": "전문가의 클레이모어",
+      "JA-JP": "エキスパートのクレイモア",
+      "ZH-TW": "專家闊劍",
+      "ID-ID": "Claymore Ahli",
+      "TR-TR": "Uzman Claymore'u",
+      "AR-SA": "كلايمور الخبير"
+    }
+  },
+  "T5_HIDE": {
+    "LocalizationNameVariable": "@ITEMS_T5_HIDE",
+    "LocalizedNames": {
+      "EN-US": "Heavy Hide",
+      "DE-DE": "Schweres Leder",
+      "FR-FR": "Cuir Épais",
+      "RU-RU": "Толстая шкура",
+      "PL-PL": "Gruba Skóra",
+      "ES-ES": "Cuero Pesado",
+      "PT-BR": "Couro Pesado",
+      "IT-IT": "Cuoio Pesante",
+      "ZH-CN": "厚重兽皮",
+      "KO-KR": "두꺼운 가죽",
+      "JA-JP": "重い革",
+      "ZH-TW": "厚重獸皮",
+      "ID-ID": "Kulit Tebal",
+      "TR-TR": "Kalın Deri",
+      "AR-SA": "جلد ثقيل"
+    }
+  },
+  "T6_ARMOR_CLOTH_SET1@1": {
+    "LocalizationNameVariable": "@ITEMS_T6_ARMOR_CLOTH_SET1",
+    "LocalizedNames": {
+      "EN-US": "Master's Scholar Robe",
+      "DE-DE": "Meister-Gelehrtenrobe",
+      "FR-FR": "Robe d'Érudit de Maître",
+      "RU-RU": "Мантия ученого мастера",
+      "PL-PL": "Szata Uczonego Mistrza",
+      "ES-ES": "Túnica de Erudito de Maestro",
+      "PT-BR": "Manto de Erudito Mestre",
+      "IT-IT": "Veste dello Studioso Maestro",
+      "ZH-CN": "大师学者长袍",
+      "KO-KR": "대가의 학자 로브",
+      "JA-JP": "マスターの学者のローブ",
+      "ZH-TW": "大師學者長袍",
+      "ID-ID": "Jubah Cendekiawan Master",
+      "TR-TR": "Usta Bilgin Cübbesi",
+      "AR-SA": "رداء الباحث المعلم"
+    }
+  },
+  "T8_MOUNT_HORSE@3": {
+    "LocalizationNameVariable": "@ITEMS_T8_MOUNT_HORSE",
+    "LocalizedNames": {
+      "EN-US": "Elder's Horse",
+      "DE-DE": "Ältesten-Pferd",
+      "FR-FR": "Cheval d'Ancien",
+      "RU-RU": "Лошадь старейшины",
+      "PL-PL": "Koń Starszego",
+      "ES-ES": "Caballo de Anciano",
+      "PT-BR": "Cavalo de Ancião",
+      "IT-IT": "Cavallo dell'Anziano",
+      "ZH-CN": "长老战马",
+      "KO-KR": "장로의 말",
+      "JA-JP": "エルダーの馬",
+      "ZH-TW": "長老戰馬",
+      "ID-ID": "Kuda Tetua",
+      "TR-TR": "Yaşlı Atı",
+      "AR-SA": "حصان الشيخ"
+    }
+  }
+}

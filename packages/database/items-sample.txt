@@ -1,0 +1,20 @@
+1: UNIQUE_HIDEOUT : Hideout Construction Kit
+2: T3_2H_TOOL_TRACKING : Journeyman's Tracking Toolkit
+3: T4_2H_CLAYMORE : Expert's Claymore
+4: T5_HIDE : Heavy Hide
+5: T6_ARMOR_CLOTH_SET1@1 : Master's Scholar Robe
+6: T8_MOUNT_HORSE@3 : Elder's Horse
+7: T1_WOOD : Rough Logs
+8: T2_ROCK : Limestone
+9: T3_FIBER : Cotton
+10: T4_ORE : Iron Ore
+11: T5_LEATHER : Heavy Leather
+12: T6_PLANKS : Ashwood Planks
+13: T7_METALBAR : Adamantium Bar
+14: T8_CLOTH : Elder's Cloth
+15: T4_BAG : Expert's Bag
+16: T5_CAPE : Master's Cape
+17: T6_SHOES_CLOTH : Grandmaster's Scholar Sandals
+18: T7_HEAD_PLATE : Elder's Soldier Helmet
+19: T3_POTION_HEAL : Journeyman's Healing Potion
+20: T8_MEAL_PIE : Elder's Pork Pie

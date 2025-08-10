@@ -66,6 +66,12 @@ packages/database/backups/*.json
 !packages/database/backups/.gitkeep
 packages/database/backups/*.cypher
 
+# Large data files (use backups/restore instead)
+packages/database/items.json
+packages/database/items.txt
+packages/database/item.txt
+packages/database/outputs/
+
 # Turbo
 .turbo/
 
