@@ -61,6 +61,11 @@ neo4j/data/
 neo4j/logs/
 neo4j/import/
 
+# Database backups (contain data)
+packages/database/backups/*.json
+!packages/database/backups/.gitkeep
+packages/database/backups/*.cypher
+
 # Turbo
 .turbo/
 

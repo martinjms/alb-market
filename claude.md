@@ -314,7 +314,7 @@ pnpm test:e2e             # Run E2E tests
 1. **NEVER test in production**
 2. **NEVER deploy to production manually**
 3. **NEVER use production endpoints for local testing**
-4. **NEVER commit directly to main/master branch**
+4. **NEVER commit directly to main branch**
 5. **NEVER store secrets, passwords, or API keys in code**
 6. **NEVER skip code review**
 7. **NEVER deploy untested code**

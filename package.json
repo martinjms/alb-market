@@ -1,0 +1,59 @@
+{
+  "name": "alb-market",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Graph-based marketplace platform",
+  "keywords": ["marketplace", "graph-database", "neo4j", "monorepo"],
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "./scripts/start-dev.sh",
+    "start:dev": "./scripts/start-dev.sh",
+    "build": "turbo run build",
+    "build:backend": "turbo run build --filter=@alb-market/backend",
+    "build:frontend": "turbo run build --filter=@alb-market/frontend",
+    "build:shared": "turbo run build --filter=@alb-market/shared",
+    "dev": "turbo run dev --parallel",
+    "dev:backend": "turbo run dev --filter=@alb-market/backend",
+    "dev:frontend": "turbo run dev --filter=@alb-market/frontend",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "type-check": "turbo run type-check",
+    "test": "turbo run test",
+    "test:all": "turbo run test --parallel",
+    "test:backend": "turbo run test --filter=@alb-market/backend",
+    "test:frontend": "turbo run test --filter=@alb-market/frontend",
+    "test:shared": "turbo run test --filter=@alb-market/shared",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "db:up": "docker-compose up -d neo4j",
+    "db:down": "docker-compose down",
+    "db:logs": "docker-compose logs -f neo4j",
+    "db:migrate": "turbo run migrate --filter=@alb-market/database",
+    "db:seed": "turbo run seed --filter=@alb-market/database",
+    "db:reset": "turbo run reset --filter=@alb-market/database",
+    "db:init-schema": "pnpm --filter @alb-market/database run init-schema"
+  },
+  "devDependencies": {
+    "@alb-market/eslint-config": "workspace:*",
+    "@alb-market/tsconfig": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "turbo": "^2.0.12",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.15.6"
+}
