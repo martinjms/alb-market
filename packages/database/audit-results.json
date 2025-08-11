@@ -1,0 +1,901 @@
+{
+  "overview": {
+    "timestamp": "2025-08-11T13:47:14.018Z",
+    "totalItems": 8226,
+    "totalRecipes": 0,
+    "totalPrices": 0,
+    "totalCategories": 17,
+    "totalTiers": 9
+  },
+  "itemBreakdown": {
+    "byCategory": [],
+    "byTier": [
+      {
+        "tier": 0,
+        "count": 352
+      },
+      {
+        "tier": 1,
+        "count": 51
+      },
+      {
+        "tier": 2,
+        "count": 97
+      },
+      {
+        "tier": 3,
+        "count": 168
+      },
+      {
+        "tier": 4,
+        "count": 1538
+      },
+      {
+        "tier": 5,
+        "count": 1496
+      },
+      {
+        "tier": 6,
+        "count": 1525
+      },
+      {
+        "tier": 7,
+        "count": 1430
+      },
+      {
+        "tier": 8,
+        "count": 1569
+      }
+    ],
+    "byIconStatus": {
+      "withIcons": 0,
+      "withoutIcons": 8226
+    },
+    "byCategoryStatus": {
+      "withCategories": 0,
+      "withoutCategories": 8226
+    }
+  },
+  "recipeBreakdown": {
+    "totalRecipes": 0,
+    "recipesWithIngredients": 0,
+    "recipesWithoutIngredients": 0,
+    "avgIngredientsPerRecipe": 0
+  },
+  "priceBreakdown": {
+    "totalPrices": 0,
+    "itemsWithPrices": 0,
+    "itemsWithoutPrices": 8226,
+    "avgPricesPerItem": 0
+  },
+  "relationshipBreakdown": {
+    "totalRelationships": 20989,
+    "byType": [
+      {
+        "type": "HAS_TIER",
+        "count": 7874
+      },
+      {
+        "type": "HAS_SUBCATEGORY",
+        "count": 10
+      },
+      {
+        "type": "BELONGS_TO_CATEGORY",
+        "count": 0
+      },
+      {
+        "type": "BELONGS_TO_SUBCATEGORY",
+        "count": 0
+      },
+      {
+        "type": "HAS_PRICE",
+        "count": 0
+      },
+      {
+        "type": "REQUIRES",
+        "count": 0
+      },
+      {
+        "type": "PRODUCES",
+        "count": 0
+      }
+    ]
+  },
+  "dataQualityIssues": {
+    "itemsMissingCategories": [
+      {
+        "itemId": null,
+        "name": "Scraps of Hide"
+      },
+      {
+        "itemId": null,
+        "name": "Rugged Hide"
+      },
+      {
+        "itemId": null,
+        "name": "Thin Hide"
+      },
+      {
+        "itemId": null,
+        "name": "Medium Hide"
+      },
+      {
+        "itemId": null,
+        "name": "Heavy Hide"
+      },
+      {
+        "itemId": null,
+        "name": "Robust Hide"
+      },
+      {
+        "itemId": null,
+        "name": "Thick Hide"
+      },
+      {
+        "itemId": null,
+        "name": "Resilient Hide"
+      },
+      {
+        "itemId": null,
+        "name": "Rough Logs"
+      },
+      {
+        "itemId": null,
+        "name": "Birch Logs"
+      },
+      {
+        "itemId": null,
+        "name": "Chestnut Logs"
+      },
+      {
+        "itemId": null,
+        "name": "Pine Logs"
+      },
+      {
+        "itemId": null,
+        "name": "Cedar Logs"
+      },
+      {
+        "itemId": null,
+        "name": "Bloodoak Logs"
+      },
+      {
+        "itemId": null,
+        "name": "Ashenbark Logs"
+      },
+      {
+        "itemId": null,
+        "name": "Whitewood Logs"
+      },
+      {
+        "itemId": null,
+        "name": "Rough Stone"
+      },
+      {
+        "itemId": null,
+        "name": "Copper Ore"
+      },
+      {
+        "itemId": null,
+        "name": "Tin Ore"
+      },
+      {
+        "itemId": null,
+        "name": "Iron Ore"
+      },
+      {
+        "itemId": null,
+        "name": "Titanium Ore"
+      },
+      {
+        "itemId": null,
+        "name": "Runite Ore"
+      },
+      {
+        "itemId": null,
+        "name": "Meteorite Ore"
+      },
+      {
+        "itemId": null,
+        "name": "Adamantium Ore"
+      },
+      {
+        "itemId": null,
+        "name": "Cotton"
+      },
+      {
+        "itemId": null,
+        "name": "Cotton"
+      },
+      {
+        "itemId": null,
+        "name": "Flax"
+      },
+      {
+        "itemId": null,
+        "name": "Hemp"
+      },
+      {
+        "itemId": null,
+        "name": "Skyflower"
+      },
+      {
+        "itemId": null,
+        "name": "Amberleaf Cotton"
+      },
+      {
+        "itemId": null,
+        "name": "Sunflax"
+      },
+      {
+        "itemId": null,
+        "name": "Ghost Hemp"
+      },
+      {
+        "itemId": null,
+        "name": "Rough Stone"
+      },
+      {
+        "itemId": null,
+        "name": "Limestone"
+      },
+      {
+        "itemId": null,
+        "name": "Sandstone"
+      },
+      {
+        "itemId": null,
+        "name": "Travertine"
+      },
+      {
+        "itemId": null,
+        "name": "Granite"
+      },
+      {
+        "itemId": null,
+        "name": "Slate"
+      },
+      {
+        "itemId": null,
+        "name": "Basalt"
+      },
+      {
+        "itemId": null,
+        "name": "Marble"
+      },
+      {
+        "itemId": null,
+        "name": "Copper Bar"
+      },
+      {
+        "itemId": null,
+        "name": "Copper Bar"
+      },
+      {
+        "itemId": null,
+        "name": "Copper Bar"
+      },
+      {
+        "itemId": null,
+        "name": "Copper Bar"
+      },
+      {
+        "itemId": null,
+        "name": "Bronze Bar"
+      },
+      {
+        "itemId": null,
+        "name": "Bronze Bar"
+      },
+      {
+        "itemId": null,
+        "name": "Bronze Bar"
+      },
+      {
+        "itemId": null,
+        "name": "Bronze Bar"
+      },
+      {
+        "itemId": null,
+        "name": "Steel Bar"
+      },
+      {
+        "itemId": null,
+        "name": "Steel Bar"
+      }
+    ],
+    "itemsMissingIcons": [
+      {
+        "itemId": null,
+        "name": "Scraps of Hide",
+        "tier": 1
+      },
+      {
+        "itemId": null,
+        "name": "Rugged Hide",
+        "tier": 2
+      },
+      {
+        "itemId": null,
+        "name": "Thin Hide",
+        "tier": 3
+      },
+      {
+        "itemId": null,
+        "name": "Medium Hide",
+        "tier": 4
+      },
+      {
+        "itemId": null,
+        "name": "Heavy Hide",
+        "tier": 5
+      },
+      {
+        "itemId": null,
+        "name": "Robust Hide",
+        "tier": 6
+      },
+      {
+        "itemId": null,
+        "name": "Thick Hide",
+        "tier": 7
+      },
+      {
+        "itemId": null,
+        "name": "Resilient Hide",
+        "tier": 8
+      },
+      {
+        "itemId": null,
+        "name": "Rough Logs",
+        "tier": 1
+      },
+      {
+        "itemId": null,
+        "name": "Birch Logs",
+        "tier": 2
+      },
+      {
+        "itemId": null,
+        "name": "Chestnut Logs",
+        "tier": 3
+      },
+      {
+        "itemId": null,
+        "name": "Pine Logs",
+        "tier": 4
+      },
+      {
+        "itemId": null,
+        "name": "Cedar Logs",
+        "tier": 5
+      },
+      {
+        "itemId": null,
+        "name": "Bloodoak Logs",
+        "tier": 6
+      },
+      {
+        "itemId": null,
+        "name": "Ashenbark Logs",
+        "tier": 7
+      },
+      {
+        "itemId": null,
+        "name": "Whitewood Logs",
+        "tier": 8
+      },
+      {
+        "itemId": null,
+        "name": "Rough Stone",
+        "tier": 1
+      },
+      {
+        "itemId": null,
+        "name": "Copper Ore",
+        "tier": 2
+      },
+      {
+        "itemId": null,
+        "name": "Tin Ore",
+        "tier": 3
+      },
+      {
+        "itemId": null,
+        "name": "Iron Ore",
+        "tier": 4
+      },
+      {
+        "itemId": null,
+        "name": "Titanium Ore",
+        "tier": 5
+      },
+      {
+        "itemId": null,
+        "name": "Runite Ore",
+        "tier": 6
+      },
+      {
+        "itemId": null,
+        "name": "Meteorite Ore",
+        "tier": 7
+      },
+      {
+        "itemId": null,
+        "name": "Adamantium Ore",
+        "tier": 8
+      },
+      {
+        "itemId": null,
+        "name": "Cotton",
+        "tier": 1
+      },
+      {
+        "itemId": null,
+        "name": "Cotton",
+        "tier": 2
+      },
+      {
+        "itemId": null,
+        "name": "Flax",
+        "tier": 3
+      },
+      {
+        "itemId": null,
+        "name": "Hemp",
+        "tier": 4
+      },
+      {
+        "itemId": null,
+        "name": "Skyflower",
+        "tier": 5
+      },
+      {
+        "itemId": null,
+        "name": "Amberleaf Cotton",
+        "tier": 6
+      },
+      {
+        "itemId": null,
+        "name": "Sunflax",
+        "tier": 7
+      },
+      {
+        "itemId": null,
+        "name": "Ghost Hemp",
+        "tier": 8
+      },
+      {
+        "itemId": null,
+        "name": "Rough Stone",
+        "tier": 1
+      },
+      {
+        "itemId": null,
+        "name": "Limestone",
+        "tier": 2
+      },
+      {
+        "itemId": null,
+        "name": "Sandstone",
+        "tier": 3
+      },
+      {
+        "itemId": null,
+        "name": "Travertine",
+        "tier": 4
+      },
+      {
+        "itemId": null,
+        "name": "Granite",
+        "tier": 5
+      },
+      {
+        "itemId": null,
+        "name": "Slate",
+        "tier": 6
+      },
+      {
+        "itemId": null,
+        "name": "Basalt",
+        "tier": 7
+      },
+      {
+        "itemId": null,
+        "name": "Marble",
+        "tier": 8
+      },
+      {
+        "itemId": null,
+        "name": "Copper Bar",
+        "tier": 2
+      },
+      {
+        "itemId": null,
+        "name": "Copper Bar",
+        "tier": 2
+      },
+      {
+        "itemId": null,
+        "name": "Copper Bar",
+        "tier": 2
+      },
+      {
+        "itemId": null,
+        "name": "Copper Bar",
+        "tier": 2
+      },
+      {
+        "itemId": null,
+        "name": "Bronze Bar",
+        "tier": 3
+      },
+      {
+        "itemId": null,
+        "name": "Bronze Bar",
+        "tier": 3
+      },
+      {
+        "itemId": null,
+        "name": "Bronze Bar",
+        "tier": 3
+      },
+      {
+        "itemId": null,
+        "name": "Bronze Bar",
+        "tier": 3
+      },
+      {
+        "itemId": null,
+        "name": "Steel Bar",
+        "tier": 4
+      },
+      {
+        "itemId": null,
+        "name": "Steel Bar",
+        "tier": 4
+      }
+    ],
+    "itemsWithoutPrices": [
+      {
+        "itemId": null,
+        "name": "Scraps of Hide",
+        "tier": 1
+      },
+      {
+        "itemId": null,
+        "name": "Rugged Hide",
+        "tier": 2
+      },
+      {
+        "itemId": null,
+        "name": "Thin Hide",
+        "tier": 3
+      },
+      {
+        "itemId": null,
+        "name": "Medium Hide",
+        "tier": 4
+      },
+      {
+        "itemId": null,
+        "name": "Heavy Hide",
+        "tier": 5
+      },
+      {
+        "itemId": null,
+        "name": "Robust Hide",
+        "tier": 6
+      },
+      {
+        "itemId": null,
+        "name": "Thick Hide",
+        "tier": 7
+      },
+      {
+        "itemId": null,
+        "name": "Resilient Hide",
+        "tier": 8
+      },
+      {
+        "itemId": null,
+        "name": "Rough Logs",
+        "tier": 1
+      },
+      {
+        "itemId": null,
+        "name": "Birch Logs",
+        "tier": 2
+      },
+      {
+        "itemId": null,
+        "name": "Chestnut Logs",
+        "tier": 3
+      },
+      {
+        "itemId": null,
+        "name": "Pine Logs",
+        "tier": 4
+      },
+      {
+        "itemId": null,
+        "name": "Cedar Logs",
+        "tier": 5
+      },
+      {
+        "itemId": null,
+        "name": "Bloodoak Logs",
+        "tier": 6
+      },
+      {
+        "itemId": null,
+        "name": "Ashenbark Logs",
+        "tier": 7
+      },
+      {
+        "itemId": null,
+        "name": "Whitewood Logs",
+        "tier": 8
+      },
+      {
+        "itemId": null,
+        "name": "Rough Stone",
+        "tier": 1
+      },
+      {
+        "itemId": null,
+        "name": "Copper Ore",
+        "tier": 2
+      },
+      {
+        "itemId": null,
+        "name": "Tin Ore",
+        "tier": 3
+      },
+      {
+        "itemId": null,
+        "name": "Iron Ore",
+        "tier": 4
+      },
+      {
+        "itemId": null,
+        "name": "Titanium Ore",
+        "tier": 5
+      },
+      {
+        "itemId": null,
+        "name": "Runite Ore",
+        "tier": 6
+      },
+      {
+        "itemId": null,
+        "name": "Meteorite Ore",
+        "tier": 7
+      },
+      {
+        "itemId": null,
+        "name": "Adamantium Ore",
+        "tier": 8
+      },
+      {
+        "itemId": null,
+        "name": "Cotton",
+        "tier": 1
+      },
+      {
+        "itemId": null,
+        "name": "Cotton",
+        "tier": 2
+      },
+      {
+        "itemId": null,
+        "name": "Flax",
+        "tier": 3
+      },
+      {
+        "itemId": null,
+        "name": "Hemp",
+        "tier": 4
+      },
+      {
+        "itemId": null,
+        "name": "Skyflower",
+        "tier": 5
+      },
+      {
+        "itemId": null,
+        "name": "Amberleaf Cotton",
+        "tier": 6
+      },
+      {
+        "itemId": null,
+        "name": "Sunflax",
+        "tier": 7
+      },
+      {
+        "itemId": null,
+        "name": "Ghost Hemp",
+        "tier": 8
+      },
+      {
+        "itemId": null,
+        "name": "Rough Stone",
+        "tier": 1
+      },
+      {
+        "itemId": null,
+        "name": "Limestone",
+        "tier": 2
+      },
+      {
+        "itemId": null,
+        "name": "Sandstone",
+        "tier": 3
+      },
+      {
+        "itemId": null,
+        "name": "Travertine",
+        "tier": 4
+      },
+      {
+        "itemId": null,
+        "name": "Granite",
+        "tier": 5
+      },
+      {
+        "itemId": null,
+        "name": "Slate",
+        "tier": 6
+      },
+      {
+        "itemId": null,
+        "name": "Basalt",
+        "tier": 7
+      },
+      {
+        "itemId": null,
+        "name": "Marble",
+        "tier": 8
+      },
+      {
+        "itemId": null,
+        "name": "Copper Bar",
+        "tier": 2
+      },
+      {
+        "itemId": null,
+        "name": "Copper Bar",
+        "tier": 2
+      },
+      {
+        "itemId": null,
+        "name": "Copper Bar",
+        "tier": 2
+      },
+      {
+        "itemId": null,
+        "name": "Copper Bar",
+        "tier": 2
+      },
+      {
+        "itemId": null,
+        "name": "Bronze Bar",
+        "tier": 3
+      },
+      {
+        "itemId": null,
+        "name": "Bronze Bar",
+        "tier": 3
+      },
+      {
+        "itemId": null,
+        "name": "Bronze Bar",
+        "tier": 3
+      },
+      {
+        "itemId": null,
+        "name": "Bronze Bar",
+        "tier": 3
+      },
+      {
+        "itemId": null,
+        "name": "Steel Bar",
+        "tier": 4
+      },
+      {
+        "itemId": null,
+        "name": "Steel Bar",
+        "tier": 4
+      }
+    ],
+    "orphanedRelationships": [],
+    "duplicateItems": [
+      {
+        "itemName": "Unknown Item",
+        "count": 95
+      },
+      {
+        "itemName": "Bow",
+        "count": 46
+      },
+      {
+        "itemName": "Broadsword",
+        "count": 45
+      },
+      {
+        "itemName": "Scholar Sandals",
+        "count": 26
+      },
+      {
+        "itemName": "Bag",
+        "count": 26
+      },
+      {
+        "itemName": "Pickaxe",
+        "count": 26
+      },
+      {
+        "itemName": "Mercenary Hood",
+        "count": 26
+      },
+      {
+        "itemName": "Mercenary Jacket",
+        "count": 26
+      },
+      {
+        "itemName": "Shield",
+        "count": 26
+      },
+      {
+        "itemName": "Cape",
+        "count": 26
+      },
+      {
+        "itemName": "Fire Staff",
+        "count": 26
+      },
+      {
+        "itemName": "Soldier Helmet",
+        "count": 26
+      },
+      {
+        "itemName": "Scholar Robe",
+        "count": 26
+      },
+      {
+        "itemName": "Undead Cape",
+        "count": 25
+      },
+      {
+        "itemName": "Scholar Cowl",
+        "count": 25
+      },
+      {
+        "itemName": "Smuggler Cape",
+        "count": 25
+      },
+      {
+        "itemName": "Muisak",
+        "count": 25
+      },
+      {
+        "itemName": "Thetford Cape",
+        "count": 25
+      },
+      {
+        "itemName": "Caitiff Shield",
+        "count": 25
+      },
+      {
+        "itemName": "Facebreaker",
+        "count": 25
+      }
+    ]
+  },
+  "recommendations": [
+    "🏷️  8226 items are missing category assignments (Issue #7)",
+    "🖼️  8226 items are missing icon URLs (Issue #8)",
+    "💰 8226 items have no price data (Issue #9)",
+    "⚠️  Found 20 items with duplicate names - review for data integrity"
+  ]
+}
