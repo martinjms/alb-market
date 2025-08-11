@@ -60,13 +60,16 @@ This directory contains specialized agent configurations for the ALB Market proj
 ```
 
 ### 📚 Documentation Specialist
-**When to use:** AUTOMATICALLY AFTER EVERY CODE CHANGE
+**When to use:** AUTOMATED via git workflow (no manual invocation needed)
 ```
-MANDATORY: Runs after any code modification
+AUTOMATED: Runs automatically after code commits
 - Updates technical documentation
-- Updates API documentation
+- Updates API documentation  
 - Maintains changelog
 - Ensures docs match implementation
+
+Note: Built into spawn-claude.sh and triggered by PostToolUse hook
+Manual invocation rarely needed - system handles this automatically
 ```
 
 ### 📋 Product Manager
